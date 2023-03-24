@@ -9,7 +9,7 @@ var {
 
 describe("library.js", function() {
   describe("createLibrary", function() {
-    it.skip("should be a function", function() {
+    it("should be a function", function() {
       assert.isFunction(createLibrary);
     });
 
